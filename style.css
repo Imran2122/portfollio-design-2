@@ -10,10 +10,15 @@ h1 {
     font-size: 50px;
 }
 
-section {
+/* section {
     display: flex;
     padding: 5px;
     margin-bottom: 150px;
+} */
+.flex-container {
+    display: flex;
+    margin-bottom: 150px;
+
 }
 
 .half-width {
@@ -43,4 +48,24 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.orange1-style {
+    color: orange;
+}
+
+.item1-style {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+    padding: 20px;
+
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
